@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/user/jsonparserapp/myapp.csproj": {}
+    "/home/user/LowLevelDesign/myapp.csproj": {}
   },
   "projects": {
-    "/home/user/jsonparserapp/myapp.csproj": {
+    "/home/user/LowLevelDesign/myapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/user/jsonparserapp/myapp.csproj",
+        "projectUniqueName": "/home/user/LowLevelDesign/myapp.csproj",
         "projectName": "myapp",
-        "projectPath": "/home/user/jsonparserapp/myapp.csproj",
+        "projectPath": "/home/user/LowLevelDesign/myapp.csproj",
         "packagesPath": "/home/user/.nuget/packages/",
-        "outputPath": "/home/user/jsonparserapp/obj/",
+        "outputPath": "/home/user/LowLevelDesign/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/user/.nuget/NuGet/NuGet.Config"
