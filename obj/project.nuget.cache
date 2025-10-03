@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3FOkXRkLjMo=",
+  "dgSpecHash": "ihz39pPqT2E=",
   "success": true,
-  "projectFilePath": "/build/myapp/myapp.csproj",
+  "projectFilePath": "/home/user/jsonparserapp/myapp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
