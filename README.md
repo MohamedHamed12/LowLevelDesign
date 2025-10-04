@@ -27,3 +27,10 @@ A custom JSON parser written in C# from scratch. This project showcases how to b
     dotnet test JsonParserApp/JsonParserApp.sln
     ```
 *   **For more details:** See the [JsonParserApp README](./JsonParserApp/README.md).
+
+
+### 3. Snake and Ladders
+
+A console-based implementation of the classic board game Snake and Ladders. This project demonstrates object-oriented design principles, event handling, and game loop implementation in C#.
+
+
