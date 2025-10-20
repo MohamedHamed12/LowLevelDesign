@@ -68,3 +68,4 @@ TestResults/
 
 # Gitignore for C# projects - specific for Rider
 *.sln.iml
+*.sh
