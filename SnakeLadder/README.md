@@ -1,21 +1,14 @@
-# Snake and Ladders
+# Snake and Ladder
 
-A simple console-based implementation of the classic Snake and Ladders board game.
+This is a classic Snake and Ladder game implemented in C#. It features a game service, a console application for playing the game, and a core project with the game logic.
 
-## Features
+## How to Play
 
-*   **Classic gameplay:** Experience the traditional Snake and Ladders game.
-*   **Multiple players:** Play with two or more players.
-*   **Clean architecture:** The project is structured with a clear separation of concerns, making it easy to maintain and extend.
+1.  Navigate to the `SnakeLadder/SnakeLadder.Console` directory.
+2.  Build and run the project using `dotnet run`.
+3.  Follow the on-screen instructions to play the game.
 
 ## Project Structure
 
-The project is divided into the following layers:
-
-*   **SnakeLadder.Console:** The presentation layer, responsible for rendering the game in the console and handling user input.
-*   **SnakeLadder.Core:** The core layer, containing the business entities (Board, Player, Dice) and the main game logic.
-
-## Getting Started
-
-1.  Open a terminal and navigate to the `SnakeLadder.Console` directory.
-2.  Run the command `dotnet run` to start the game.
+-   **SnakeLadder.Console:** The console application for playing the game.
+-   **SnakeLadder.Core:** Contains the core game logic, including the board, players, and game service.

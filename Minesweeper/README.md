@@ -1,15 +1,16 @@
-# Minesweeper (.NET 9)
+# Minesweeper
 
-Console Minesweeper implementation.
+This is a classic Minesweeper game implemented in C#. It features a game engine, a console-based UI, and a random board generator.
 
-Usage:
-1. Build and run:
-   dotnet run --project Minesweeper.csproj
-2. Enter initial parameters: rows cols mines [seed]
-   Example: `9 9 10` or `9 9 10 42`
-3. Commands while playing:
-   - `r 1 1` or `reveal 1 1` to reveal cell (row 1 col 1)
-   - `f 1 1` or `flag 1 1` to toggle flag
-   - `help` to show commands
-   - `exit` to quit
+## How to Play
 
+1.  Navigate to the `Minesweeper` directory.
+2.  Build and run the project using `dotnet run`.
+3.  Enter commands to reveal cells or place flags. For example, to reveal the cell at row 1, column 2, you would type `reveal 1 2`.
+
+## Project Structure
+
+-   **Game:** Contains the main game logic and engine.
+-   **Models:** Defines the data structures for the game board and cells.
+-   **Services:** Includes services like the board generator.
+-   **UI:** Provides the user interface for the game.

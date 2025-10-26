@@ -1,36 +1,19 @@
-# Multi-Project .NET Repository
+# C# Projects Collection
 
-This repository contains multiple .NET projects, each serving a different purpose. Below is a brief overview of each project.
+This repository contains a collection of C# projects that demonstrate various concepts and design patterns.
 
 ## Projects
 
-### 1. Tic-Tac-Toe
+-   [**Json Parser App**](./JsonParserApp): A C# application for parsing JSON data, featuring a tokenizer, parser, and a class hierarchy for JSON elements.
 
-A classic Tic-Tac-Toe game implemented as a console application. It demonstrates a clean architecture approach in .NET, with a separation of concerns between the core game logic, application layer, and UI.
+-   [**Logging Library**](./LoggingLibrary): A flexible and extensible logging library for C# with support for various log levels and sinks.
 
-*   **To run the game:**
-    ```bash
-    dotnet run --project TicTacToe/TicTacToe.ConsoleUI/TicTacToe.ConsoleUI.csproj
-    ```
-*   **For more details:** See the [Tic-Tac-Toe README](./TicTacToe/README.md).
+-   [**Minesweeper**](./Minesweeper): A classic Minesweeper game implemented in C# with a console-based UI.
 
-### 2. JsonParserApp
+-   [**Rate Limiter**](./RateLimiter): An implementation of a rate limiter in C# with different strategies, demonstrated with an e-commerce API example.
 
-A custom JSON parser written in C# from scratch. This project showcases how to build a lightweight and efficient JSON parser without any external dependencies. It's a great example of how to handle complex data structures and implement a strategy pattern for parsing.
+-   [**Snake and Ladder**](./SnakeLadder): A classic Snake and Ladder game implemented in C# with a console application.
 
-*   **To run the application:**
-    ```bash
-    dotnet run --project JsonParserApp/src/JsonParserApp/JsonParserApp.csproj
-    ```
-*   **To run the tests:**
-    ```bash
-    dotnet test JsonParserApp/JsonParserApp.sln
-    ```
-*   **For more details:** See the [JsonParserApp README](./JsonParserApp/README.md).
+-   [**Tic-Tac-Toe**](./TicTacToe): A Tic-Tac-Toe game in C# with a layered architecture and a console-based UI.
 
-
-### 3. Snake and Ladders
-
-A console-based implementation of the classic board game Snake and Ladders. This project demonstrates object-oriented design principles, event handling, and game loop implementation in C#.
-
-
+-   [**Vending Machine**](./VendingMachine): A simulation of a vending machine in C#, showcasing domain-driven design principles.
