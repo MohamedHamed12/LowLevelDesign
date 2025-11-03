@@ -57,7 +57,7 @@ public class RateLimitingMiddleware
         await _next(context);
     }
     
-    private static string GetClientIdentifier(HttpContext context)
+    privateGetClientIdentifier(HttpContext context)
     {
         // Try to get API key from header
         if (context.Request.Headers.TryGetValue("X-API-Key", out var apiKey))
