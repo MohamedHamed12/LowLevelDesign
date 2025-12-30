@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ElevatorSystem.Application/ElevatorSystem.Application.csproj" />
+    <Project Path="src/ElevatorSystem.Console/ElevatorSystem.Console.csproj" />
+    <Project Path="src/ElevatorSystem.Domain/ElevatorSystem.Domain.csproj" />
+    <Project Path="src/ElevatorSystem.Infrastructure/ElevatorSystem.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ElevatorSystem.Tests/ElevatorSystem.Tests.csproj" />
+  </Folder>
+</Solution>
